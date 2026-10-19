@@ -28,6 +28,7 @@ const server = createServer((request, response) => {
     main{max-width:620px;padding:40px;border:1px solid #e4e8f0;border-radius:14px;background:#fff;box-shadow:0 8px 30px #2430490f}
     small{color:#2864dc;font-weight:700;letter-spacing:.08em}h1{margin:10px 0 12px}p{color:#647089;line-height:1.7}code{padding:3px 6px;border-radius:5px;background:#eef1f5}
   </style>
+  <p>Hello World</p>
   <main><small>MINI PAAS · WEB SERVICE</small><h1>Ứng dụng độc lập đã hoạt động</h1><p>Container đang chạy phiên bản <code>${version}</code>. Kiểm tra thêm tại <a href="/health">/health</a> và <a href="/version">/version</a>.</p></main>
 </html>`);
     return;
